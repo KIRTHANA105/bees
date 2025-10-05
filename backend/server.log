@@ -1,0 +1,18 @@
+2025-10-05 12:59:28.957289: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-10-05 12:59:31.197629: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-10-05 12:59:32.952411: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Loaded model from D:\bees\backend\models\alzheimer_cnn_gru_model.h5
+ * Serving Flask app 'app'
+ * Debug mode: on
+An attempt was made to access a socket in a way forbidden by its access permissions
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Loaded model from models\alzheimer_cnn_gru_model.h5
+INFO:root:Model input shape: (None, 16, 56, 56, 3)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Loaded model from models\alzheimer_cnn_gru_model.h5
+INFO:root:Model input shape: (None, 16, 56, 56, 3)
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Loaded model from models\alzheimer_cnn_gru_model.h5
+INFO:root:Model input shape: (None, 16, 56, 56, 3)
